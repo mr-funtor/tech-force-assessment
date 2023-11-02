@@ -1,12 +1,15 @@
-import CustomButton from "../shared/CustomButton"
+import CustomButton from "../shared/CustomButton";
+import logo from "../../assets/images/logo.png"
 
 const Navbar = ()=>{
   return(
     <nav className="fixed top-0 h-20 w-full flex justify-between items-center px-10 md:px-32 bg-white z-20">
-      <div className="flex items-center">
-        <p className="ml-2 text-primaryBlue font-medium leading-4">
-          A <span className="block">Logo</span>
-        </p>
+      <div className="flex items-center h-10 w-32 ">
+        <img
+          src={logo}
+          alt="company logo"
+          className="h-full w-full object-cover"
+        />
       </div>
       <CustomButton
         buttonText="Sign Up"

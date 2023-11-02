@@ -1,5 +1,5 @@
 import './App.css'
-import { ContactSection, FeatureSection, HeroSection, Navbar, PricingSection, TestimonialSection } from './components/LandingPage'
+import { ContactSection, FeatureSection, FooterSection, HeroSection, Navbar, PricingSection, TestimonialSection } from './components/LandingPage'
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
       <TestimonialSection/>
       <PricingSection/>
       <ContactSection/>
+      <FooterSection/>
     </main>
   )
 }

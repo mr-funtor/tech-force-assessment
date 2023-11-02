@@ -4,6 +4,7 @@ import FeatureSection from "./FeatureSection";
 import TestimonialSection from "./TestimonialSection";
 import PricingSection from "./PricingSection";
 import ContactSection from "./ContactSection";
+import FooterSection from "./FooterSection";
 
 export{
     Navbar,
@@ -11,5 +12,6 @@ export{
     FeatureSection,
     TestimonialSection,
     PricingSection,
-    ContactSection
+    ContactSection,
+    FooterSection
 }
