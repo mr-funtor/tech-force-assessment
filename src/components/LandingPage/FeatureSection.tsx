@@ -11,22 +11,22 @@ type crowdFundingType ={
 
 const features: crowdFundingType[] = [
   {
-   heading: "Choose Project",
+   heading: "Automated Bookkeeping",
    icon: <FaConnectdevelop />,
    backgroundColor: "bg-[#F5EBF1]",
-   description:"Choose the Project you'd like to crowdfund in, we have a range of  projects to offer." 
+   description:"Effortlessly track and categorize your financial transactions, saving you time and reducing manual data entry" 
   },
   {
-   heading: "Enter Amount",
+   heading: "Invoicing and Billing",
    icon: <FaConnectdevelop />,
    backgroundColor: "bg-[#F5F0EA]",
-   description:"Pick an amount you’d like to crowdfund with, the duration you’d like to invest for and your payment method." 
+   description:"Create professional invoices, send payment reminders, and manage your cash flow seamlessly.." 
   },
   {
-   heading: "Confirm Transaction",
+   heading: "Financial Reporting",
    icon: <FaConnectdevelop />,
    backgroundColor: "bg-[#EAF3F5]",
-   description:"Agree to the terms & conditions and confirms transactions. Thats It, you have successfully Crowdfunded." 
+   description:"Access a variety of financial reports, including income statements, balance sheets, and cash flow statements." 
   },
 ]
 
